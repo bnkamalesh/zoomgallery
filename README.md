@@ -8,6 +8,7 @@ How to use
 ==========
 
 To enable ZoomGallery on a particular set of images, there are 2 methods.
+
 1. Call the `init` function with the image container.
 	E.g: zoomGallery.init( $("#zoomG") );
 	- Where `#zoomG` is the ID of any DOM element which contains a set of images. 
