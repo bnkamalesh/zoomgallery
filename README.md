@@ -17,6 +17,7 @@ To enable ZoomGallery on a particular set of images, there are 2 methods.
 
 2. Call the `init` function with the list of images to be included in the gallery.
 	E.g:
+
 		image_list = [
 			{ "url": "http://yourdomain.com/images/1.jpg", "description": "Picture 1" },
 			{ "url": "http://yourdomain.com/images/2.jpg", "description": "Picture 2" }
