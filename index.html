@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="zoomgallery.css">
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript" src="zoomgallery.js"> </script>
+	<script type="text/javascript" src="main.js"> </script>
+</head>
+<body>
+	<div id="wrap">
+		<h1 style="text-align: center">ZoomGallery</h1>
+		<p>Click any image</p>
+		<ul id="zoomG">
+			<li><img src="slides/1.jpg" /></li>
+			<li><img src="slides/2.jpg" /></li>
+			<li><img src="slides/3.jpg" /></li>
+		</ul>
+	</div>
+	
+	<!-- this is required -->
+	<div id="zoomGallery">
+		<a href="#" class="close">X</a>
+		<div class="content"> </div>
+		<div class="nav">
+			<p>
+				<a href="#" class="prev"></a>
+				<span class="left-count">0</span> / <span class="right-count">0</span>
+				<a href="#" class="next"></a>
+			</p>
+		</div>
+		<div class="clear"> </div>
+	</div><!-- zoomGallery -->
+</body>
+</html>
